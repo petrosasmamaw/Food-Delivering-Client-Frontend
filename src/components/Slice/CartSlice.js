@@ -3,7 +3,7 @@ import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
 const API = import.meta.env.VITE_API_URL ;
-const API_URL = `${API}/cart`;
+const API_URL = `${API}/api/cart`;
 
 // GET CART
 export const fetchCart = createAsyncThunk("cart/fetch", async (userId) => {
