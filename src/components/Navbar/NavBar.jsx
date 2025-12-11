@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { assets } from '../../assets/assets';
-import Login from '../auth/Login';
-import Register from '../auth/Register';
+import Login from '../auth/login';
+import Register from '../auth/register';
 import { Link, useNavigate } from 'react-router-dom';
 import { supabase } from '../../supabaseClient';
 
