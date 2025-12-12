@@ -1,4 +1,5 @@
 import React from 'react';
+import foodhb2 from '../../assets/foodhb2.jpg';
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
     >
       <div
         className="w-full max-w-6xl rounded-3xl overflow-hidden relative flex items-center bg-cover bg-center shadow-xl"
-        style={{ backgroundImage: "url('/header_img.png')" }}
+        style={{ backgroundImage: `url(${foodhb2})` }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50 rounded-3xl"></div>
 

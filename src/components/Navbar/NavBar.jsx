@@ -4,6 +4,7 @@ import Login from '../auth/login';
 import Register from '../auth/register';
 import { Link, useNavigate } from 'react-router-dom';
 import { supabase } from '../../supabaseClient';
+import foodhb3 from '../../assets/foodhb3.jpg';
 
 const NavBar = () => {
   const [active, setActive] = useState("header");
@@ -68,7 +69,7 @@ const NavBar = () => {
       <nav className="w-full bg-white shadow-md fixed top-0 left-0 z-50">
         <div className="container mx-auto flex items-center justify-between py-4 px-6">
           <div className="flex items-center space-x-2">
-            <img src={assets.logo} alt="Logo" className="w-10 h-10 object-contain" />
+            <img src={foodhb3} alt="Logo" className="w-10 h-10 object-contain" />
             <span className="text-xl font-bold text-gray-800">Food Delivery</span>
           </div>
 
